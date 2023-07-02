@@ -10,7 +10,7 @@ BOOKS_FILENAME = 'books.json'
 
 def on_reload():
     os.makedirs('pages', exist_ok=True)
-    books_on_page = 10
+    books_on_page = 20
     with open('books.json', 'r', encoding='UTF-8') as file:
         books = json.load(file)
     for page, block_books in enumerate(ichunked(books, books_on_page), start=1):
