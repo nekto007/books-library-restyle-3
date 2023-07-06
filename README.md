@@ -25,6 +25,11 @@ pip install -r requirements.txt
 ```Python
 python render_website.py
 ``` 
+After run render_website.py: http://127.0.0.1:5500/pages/index1.html
+
+## Offline run book library
+After download project open file pages/index1.html
+
 The script generates website pages in the ``pages`` directory.  
 The finished pages can run locally.
 
