@@ -34,4 +34,4 @@ if __name__ == '__main__':
     on_reload()
     server = Server()
     server.watch('template.html', on_reload)
-    server.serve(open_url_delay=1)
+    server.serve(open_url_delay=1, default_filename='pages/index1.html')
